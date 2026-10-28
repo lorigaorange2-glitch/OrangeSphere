@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "OrangeSphere \u2014 Your Study Space",
+  "short_name": "OrangeSphere",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f7fc",
+  "theme_color": "#5b4bdb",
+  "description": "A student study space for notes, quizzes, flashcards and planning.",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
