@@ -80,4 +80,14 @@ async function installApp(){if(!deferredInstallPrompt){toast('Open the hosted ap
 if('serviceWorker' in navigator && /^https?:$/.test(location.protocol)){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
 
 </script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+‎<script>
+‎const SUPABASE_URL = 'https://tosyxcicgedxokznswjk.supabase.co/rest/v1/';
+‎const SUPABASE_KEY = 'sb_publishable_D3yACqXrSoPykKxYplk_wA_Sye7BrZ-';
+‎
+‎const supabase = window.supabase.createClient(
+‎  SUPABASE_URL,
+‎  SUPABASE_KEY
+‎);
+‎</script>
 </body></html>
